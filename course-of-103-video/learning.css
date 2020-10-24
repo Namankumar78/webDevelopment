@@ -1,0 +1,107 @@
+ #that {
+    font-weight: 100;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: large;
+    line-height: 2em;
+    height: 80px;
+    width: 1500px;
+    color: rgba(186, 245, 92, 0.986);
+    background-color: rebeccapurple;
+    font-weight: bold;
+}
+
+#this {
+    background-color: coral;
+    height: 100px;
+    width: 600px;
+    border: solid cornflowerblue 4px;
+    border-width: 5px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 5px;
+} 
+
+.pera {
+    background-color: rgb(243, 193, 174);
+    border-right: solid rgb(100, 237, 214) 4px;
+    border-left: solid cornflowerblue 4px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    border-top: solid rgb(255, 43, 61) 4px;
+    border-bottom: solid rgb(243, 240, 64) 4px;
+    font-size: 24px;
+    margin: 2px 0px 2px 0px;
+}
+
+.contaner {
+    width: 100%;
+    border: 3px solid red;
+    padding: 2px;
+    margin: auto;
+}
+#that {
+    float: left;
+    width: 49.59%;
+    height: 250px;
+    font-size: 26px;
+    text-align: justify;
+    text-shadow: lawngreen;
+}
+#this {
+    float: right;
+    height: 119px;
+    width: 49%;
+}
+
+
+#this1 {
+    float: right;
+    width: 99%;
+    clear: both;
+    text-align: center;
+}
+
+.image {
+    width: 12%;
+    float: left;
+    margin-right: 23px;
+} 
+
+#this2 {
+    height: 500px;
+    width: 1100px;
+    background-image: url('images/portfolio7.jpg');
+    background-position: 20px;
+}    
+
+.contaner {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 12px;  
+}
+.btn {
+    text-decoration: none;
+    border: none;
+    background-color: grey;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    background-color: brown;
+    color: chartreuse;
+}
+
+a:visited {
+    background-color: black;
+}
+
+a:active {
+    background-color: ;
+}
