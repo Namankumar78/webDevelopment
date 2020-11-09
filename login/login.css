@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.contaner {
+    color: white;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.contaner h1 {
+    border-bottom: 5px solid purple;
+    align-content: center;
+    font-size: 60px;
+    padding: 10px 0px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.box {
+    width: 100%;
+    border-bottom: 2px solid purple;
+}
+
+.box i {
+    width: 5%;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.box input {
+    font-family: 'Pacifico', cursive;
+    background: none;
+    color: white;
+    width: 75%;
+    outline: none;
+    font-size: 20px;
+    margin: 15px 4px;
+    padding: 5px 10px;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 2px;
+    outline: none;
+    padding: 6px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-weight: bold;
+
+}

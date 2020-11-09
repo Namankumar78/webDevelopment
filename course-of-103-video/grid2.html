@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #section {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'data data data aside'
+                'footer footer footer aside';
+        }
+
+        .item {
+            background-color: red;
+            border: 2px solid black;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #data {
+            grid-area: data;
+
+        }
+
+        #aside {
+            grid-area: aside;
+
+        }
+
+        footer {
+            grid-area: footer;
+            height: 20px;
+            width: auto;
+            position: relative;
+            top: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="section">
+        <div id="navbar" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, est?</div>
+        <div id="data" class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+        <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, facilis minus ipsa
+            sapiente aut quos nisi quisquam rerum blanditiis perferendis consequuntur expedita tenetur mollitia dolore,
+            quidem, suscipit odit unde nostrum! Quod rem deleniti necessitatibus 
+        </div>
+        <footer class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, enim! Odio, expedita
+            incidunt?</footer>
+    </div>
+</body>
+
+</html>

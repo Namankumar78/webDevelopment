@@ -1,0 +1,24 @@
+extends base.pug
+
+block scripts
+    script(src = '/static/index.pug')
+    script(src='https://kit.fontawesome.com/a04cb1fca0.js' crossorigin='anonymous')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/login.css
+
+block content
+    div.cont
+        div.contaner
+            h1 Sign In
+            form(action="/login", method="post")
+                div.box
+                    i.fa.fa-envelope
+                    input(type="email", class="email", name="email", Placeholder="Enter you email")
+                div.box
+                    i.fa.fa-key
+                    input(type="password", class="password", name="password", Placeholder="Enter you Password")
+                button(class = "btn" ) Submit
+        

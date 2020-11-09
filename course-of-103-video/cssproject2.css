@@ -1,0 +1,110 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --navbar-height: 59px
+}
+
+body {
+    /* background: url("images/portfolio3.jpg"); */
+    margin: 0px;
+    padding: 0px;
+    background-size: 80%;
+}
+
+#logo img{
+    display: flex;
+    height: 65px;
+    width: 129px;
+    margin: 0px 20px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar li{
+    list-style: none;
+    /* margin: 15px; */
+}
+
+#navbar a{
+    display: block;
+    padding: 1px 13px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+}
+
+#navbar a:hover{
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.15    ;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 115px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 22px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('images/portfolio3.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px; 
+    width: 100%;
+    z-index: -1;
+    opacity:0.85;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 10px;
+    border: 2px solid brown;
+    font-family: 'Lobster', cursive;
+    border-radius: 17px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#home h1 {
+    /* font-family: 'Grenze Gotisch', cursive; */
+}
+
+#home p {
+    /* font-family: 'Grenze Gotisch', cursive; */
+}

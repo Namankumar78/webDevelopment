@@ -1,0 +1,17 @@
+{
+  "name": "npmdemo",
+  "version": "1.0.0",
+  "description": "yoo",
+  "main": "mod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "good"
+  ],
+  "author": "naman",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

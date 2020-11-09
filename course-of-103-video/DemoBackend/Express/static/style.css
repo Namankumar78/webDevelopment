@@ -1,0 +1,46 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    width: auto;
+    height: 50px;
+    list-style: none;
+    background-color: gray;
+    /* border: 3px solid rgb(102, 102, 102); */
+}
+
+li {
+    margin: 10px 5px;
+    size: 15px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: wheat;
+    background-color: turquoise;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 7px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}

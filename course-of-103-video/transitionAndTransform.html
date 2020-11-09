@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .contaner {
+            /* for transition */
+            /* background-color: yellow;
+            width: 800px;
+            height: 800px;
+            background-color: lightseagreen;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 1s;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 1s; */
+            /* for transform */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 80vh;
+            background-color: lightseagreen;
+        }
+
+        #box {
+            /* for transition */
+            /* border: 3px solid red;
+            width: 300px;
+            height: 300px;
+            background-color: lightseagreen;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: 1s; */
+            /* for transform */
+            width: 300px;
+            background-color: gray;
+            height: 300px;
+            border: 3px solid red;
+            transition-property: all;
+            transition-duration: 3s;
+        }
+
+        #box:hover {
+            /* for transition */
+            /* background-color: violet;
+            width: 400px;
+            height: 400px;
+            font-size: 20px; */
+            /* for transform */
+            /* transform: rotate(45deg); */
+            transform: skew(30deg);
+            transform: translate3d(42px, -62px, -135px)
+        }
+
+        .contaner:hover {
+            /* for transition */
+            /* background-color: yellowgreen;
+            width: 900px;
+            height: 900px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contaner">
+        <div id="box">
+            THis is mine dont touch
+        </div>
+</body>
+
+</html>
