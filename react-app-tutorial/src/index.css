@@ -1,0 +1,41 @@
+* {
+    background-color: gray;
+}
+#root {
+    margin: 00px 10px;
+    padding: 00px 10px;
+    width: 99%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards {
+    margin: 5rem;
+    border: 0px solid green;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card {
+    transition: all .3s ease-in-out;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 25px;
+    image-rendering: auto;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.1);
+    
+}
+.card_info,button {
+    background-color: white;
+}
+
+span,h3{
+    background: none;
+}
+
